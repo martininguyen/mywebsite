@@ -2,10 +2,9 @@
 var express = require('express');
 var app = express();
 var cool = require('cool-ascii-faces');
-var pg = require('pg');
 var handlebars = require('express3-handlebars');
 var path = require('path');
-var data = require('./data.json');
+
 
 // Environments
 app.set('port', (process.env.PORT || 3000));
