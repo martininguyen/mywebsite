@@ -1,0 +1,19 @@
+{
+  "name": "martininguyen",
+  "version": "1.0.0",
+  "description": "Martin's Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Martin Nguyen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martininguyen/mywebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martininguyen/mywebsite/issues"
+  },
+  "homepage": "https://github.com/martininguyen/mywebsite"
+}
