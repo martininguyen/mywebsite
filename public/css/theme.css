@@ -1,0 +1,123 @@
+*, *:after, *:before { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+	
+header {
+
+	background-repeat: none;
+	background-position: center center;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 400px;
+	width:100%;
+	
+}
+
+.center{
+	text-align: center;
+	font-size: 20px;
+}
+
+.mintro {
+	background: rgba(255, 255, 255, 0.7);
+	color: black;
+	display: inline-block;
+	padding: 5em;
+	text-align: center;
+	margin-top: 30px;
+	box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.bb, .bb::before, .bb::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+.bb {
+  padding-top: 50px;
+  width: 15em ;
+  height: 15em;
+  margin: auto;
+  margin-top: 50px;
+  color: black;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: inset 1px 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.bb::before, .bb::after {
+  content: '';
+  z-index: -1;
+  margin: -5%;
+  box-shadow: inset 0 0 0 3px;
+  animation: rectRotate 10s linear infinite;
+}
+
+
+.bb:hover::after, .bb:hover::before {
+  background-color: rgba(0, 208, 255, .3);
+}
+
+.bb::before {
+  animation-delay: -5s;
+}
+
+@keyframes rectRotate {
+  0%, 100% {
+    clip: rect(0px, 330px, 2px, 0px);
+  }
+  25% {
+    clip: rect(0px, 2px, 330px, 0px);
+  }
+  50% {
+    clip: rect(318px, 330px, 330px, 0px);
+  }
+  75% {
+    clip: rect(0px, 330px, 330px, 318px);
+  }
+}
+
+	
+body, html { 
+	font-size: 100%; 
+	padding: 0; 
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+.bg-primary {
+	background: #333
+}
+
+
+
+
