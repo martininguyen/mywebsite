@@ -5,16 +5,18 @@
 }
 	
 header {
-
+	background-image: url('../img/tahoe.jpg');
 	background-repeat: none;
 	background-position: center center;
 	background-attachment: scroll;
+	position: relative;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	height: 400px;
 	width:100%;
+	z-index: 1;
 	
 }
 
@@ -39,11 +41,12 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
+
   
 }
 
 .bb {
-  padding-top: 50px;
+  padding-top: 10px;
   width: 15em ;
   height: 15em;
   margin: auto;
