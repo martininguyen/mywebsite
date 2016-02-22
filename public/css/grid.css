@@ -28,10 +28,12 @@
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
+	text-align: center;
 }
 
 .grid-gallery figcaption p {
 	margin: 0;
+	text-align: center;
 }
 
 /* Grid style */
@@ -64,6 +66,7 @@
 .grid figcaption {
 	background: #e4e4e4;
 	padding: 25px;
+	text-align: center;
 }
 
 /* Slideshow style */
@@ -155,6 +158,7 @@
 
 .slideshow figcaption {
 	padding-bottom: 20px;
+	
 }
 
 .slideshow figcaption h3 {
