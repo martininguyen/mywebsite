@@ -37,7 +37,7 @@ header {
 } */
 
 /* CSS Border Animation */
-.bb, .bb::before, .bb::after {
+.cc, .cc::before, .cc::after {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -47,7 +47,7 @@ header {
   
 }
 
-.bb {
+.cc {
   padding-top: 15px;
   width: 15em ;
   height: 15em;
@@ -60,7 +60,7 @@ header {
 
 
 
-.bb::before, .bb::after {
+.cc::before, .cc::after {
   content: '';
   z-index: -1;
   margin: -5%;
@@ -69,11 +69,11 @@ header {
 }
 
 
-.bb:hover::after, .bb:hover::before {
+.cc:hover::after, .cc:hover::before {
   background-color: rgba(0, 208, 255, .3);
 }
 
-.bb::before {
+.cc::before {
   animation-delay: -5s;
 }
 
@@ -110,6 +110,7 @@ body, html {
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #47a3da;
+	background-color: white;
 }
 
 a {
