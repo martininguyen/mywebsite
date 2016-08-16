@@ -285,7 +285,7 @@ span.nav-close:before {
     font-size: 32px;
 }
 
-.info-strip span #tech {
+.info-strip span .tech {
     font-family: Georgia;
     display: none;
     position: absolute;
@@ -294,7 +294,7 @@ span.nav-close:before {
     text-align: center;
 }
 
-.info-strip span:hover #tech {
+.info-strip span:hover .tech {
     display: block;
 }
 
